@@ -4,12 +4,12 @@ import './Login2.css' ;
 import {useLocation,useNavigate} from 'react-router-dom';
 
 const AddEmp = () => {
-    const [id, setid] = useState("");
-    const [employee_salary, sete] = useState("");
-    const [employee_age, seta] = useState("");
-    const [profile_image, setai] = useState("");
-    const [employee_name, setn] = useState("");
     const location = useLocation();
+    const [employee_salary, sete] = useState(location.state.employee_salary);
+    const [employee_age, seta] = useState(location.state.employee_age);
+    const [profile_image, setai] = useState(location.state.employee_name);
+    const [employee_name, setn] = useState("");
+   
     let history=useNavigate();
     
     const submit=(e)=>{
