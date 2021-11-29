@@ -7,8 +7,8 @@ const AddEmp = () => {
     const location = useLocation();
     const [employee_salary, sete] = useState(location.state.employee_salary);
     const [employee_age, seta] = useState(location.state.employee_age);
-    const [profile_image, setai] = useState(location.state.employee_name);
-    const [employee_name, setn] = useState("");
+    const [profile_image, setai] = useState();
+    const [employee_name, setn] = useState(location.state.employee_name);
    
     let history=useNavigate();
     
