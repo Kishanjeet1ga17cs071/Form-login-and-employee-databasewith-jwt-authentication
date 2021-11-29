@@ -19,6 +19,7 @@ function App() {
    .catch(error=>{
      console.log(error)
    })
+   window.location.reload();
   }
   const editButton =(p)=>{
     history("/add2",{state:{id:p.data.id,employee_name:p.data.employee_name,employee_salary:p.data.employee_salary,employee_age:p.data.employee_age}})

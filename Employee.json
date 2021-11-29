@@ -146,13 +146,6 @@
       "employee_age": "26",
       "profile_image": "Employee32",
       "id": 21
-    },
-    {
-      "employee_salary": "16000",
-      "employee_age": "21",
-      "employee_name": "Employee4",
-      "profile_image": "",
-      "id": 22
     }
   ]
 }
